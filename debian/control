@@ -1,0 +1,21 @@
+Source: footnote
+Section: utils
+Priority: extra
+Maintainer: Mario Guerriero <mefrio.g@gmail.com>
+Build-Depends: debhelper (>= 7), 
+    cmake,
+    pkg-config,
+    valac,
+    libgtk-3-dev,
+    libgranite-dev,
+    libsqlheavy0.1-dev,
+    libgee-dev
+Standards-Version: 3.9.1
+Homepage: http://launchpad.net/footnote
+Vcs-Bzr: https://code.launchpad.net/~elementary-apps/footnote/footnote
+
+Package: footnote
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Pre-Depends: dpkg (>= 1.15.6)
+Description: Take note in elementary style
