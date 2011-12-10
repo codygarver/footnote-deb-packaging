@@ -19,3 +19,15 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Pre-Depends: dpkg (>= 1.15.6)
 Description: Take note in elementary style
+
+Package: footnote-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: footnote (= ${binary:Version}), ${misc:Depends}
+Pre-Depends: dpkg (>= 1.15.6)
+Enhances: footnote
+Description: Take note in elementary style (debugging symbols)
+
+ .
+ This package contains debugging symbols for footnote.
