@@ -10,8 +10,8 @@ Build-Depends: cmake,
                libgtk-3-dev,
                libsqlheavy0.1-dev | libsqlheavy-dev,
                pkg-config,
-               valac-0.16
-Standards-Version: 3.9.1
+               valac-0.20 | valac (>= 0.20)
+Standards-Version: 3.9.4
 Homepage: http://launchpad.net/footnote
 Vcs-Bzr: https://code.launchpad.net/~elementary-apps/footnote/footnote
 
